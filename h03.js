@@ -116,5 +116,7 @@ const inimesteAndmed = [
 ];
 
 inimesteAndmed.forEach(inimene => {
-    console.log(inimene.isikukood[5]+inimene.isikukood[6]+"."+inimene.isikukood[3]+inimene.isikukood[4]+"."+inimene.isikukood[2]+inimene.isikukood[3])
+    console.log(inimene.isikukood[5]+inimene.isikukood[6]
+        +"."+inimene.isikukood[3]+inimene.isikukood[4]
+        +"."+inimene.isikukood[2]+inimene.isikukood[3])
 });
